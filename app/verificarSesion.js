@@ -1,6 +1,7 @@
 const botonesSesionCerrada = $(".sesionCerrada");
 const botonesSesionIniciada = $(".sesionIniciada");
 
+
 export function verificarSesion(user) {
     if (user) {
       botonesSesionIniciada.css("display", "block");
